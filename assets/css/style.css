@@ -88,3 +88,24 @@
     rgba(0, 0, 0, 0.8) 100%);
 
   }
+
+  .text-title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 100;
+    padding-top: 280px;
+  }
+
+  h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+  }
+  p {
+    color: rgba(255, 255, 255, 0.804);
+    font-size: 22px;
+  }
